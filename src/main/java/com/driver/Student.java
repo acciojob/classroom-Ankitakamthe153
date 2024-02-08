@@ -2,7 +2,7 @@ package com.driver;
 
 public class Student {
 
-    private String name;
+    private String studentname;
     private int age;
     private double averageScore;
 
@@ -12,17 +12,17 @@ public class Student {
 
 	public Student(String name, int age, double averageScore) {
 		super();
-		this.name = name;
+		this.studentname = name;
 		this.age = age;
 		this.averageScore = averageScore;
 	}
 
 	public String getName() {
-		return name;
+		return studentname;
 	}
 
 	public void setName(String name) {
-		this.name = name;
+		this.studentname = name;
 	}
 
 	public int getAge() {
@@ -43,7 +43,7 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [name=" + name + ", age=" + age + ", averageScore=" + averageScore + "]";
+		return "Student [name=" + studentname + ", age=" + age + ", averageScore=" + averageScore + "]";
 	}
     
     
